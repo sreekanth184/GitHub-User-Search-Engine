@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'custom-bg': "url('./src/assets/Images/image.png')",
+        'custom-bg': "url('../src/assets/Images/image.png')",
       },
       boxShadow: {
         glow: '0 0 5px rgba(66, 153, 225, 0.5), 0 0 10px rgba(66, 153, 225, 0.5)', // Customize glow color and intensity
