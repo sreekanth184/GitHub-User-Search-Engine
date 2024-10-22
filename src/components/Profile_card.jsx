@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Profile_card({ profileName, profileImg, profileLink }) {
   return (
-    <div className=" flex flex-col gap-4 border rounded-lg w-fit m-6">
+    <div className=" flex flex-col gap-4 shadow-lg shadow-gray-400 rounded-lg w-44 mx-auto my-4  sm:w-fit sm:m-6">
       <div>
         <img
           src={profileImg}

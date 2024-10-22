@@ -28,7 +28,7 @@ function UserDetails_page({ isLoading, setIsLoading, isError, setIsError }) {
 
   useEffect(() => {
     dataFetch();
-  }, []);
+  }, [userName]);
 
   if (isError) {
     return <h1 className="text-red-500">Something went wrong</h1>;
